@@ -50,7 +50,7 @@ export default {
         settings: {
           optimizer: {
             enabled: true,
-            runs: 9999,
+            runs: 999999,
           },
         },
       }
@@ -72,16 +72,6 @@ export default {
     localavax: {
       url: "http://localhost:8546",
       timeout: 1800000
-    },
-    ropsten: {
-      url: process.env.ROPSTEN_URL || "",
-      accounts:
-        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
-    },
-    avax: {
-      url: process.env.AVAX_RPC || "",
-      accounts:
-        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
     bsc: {
       url: process.env.BSC_RPC || "",

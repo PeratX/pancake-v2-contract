@@ -2,7 +2,7 @@
     "name": "hardhat-project",
     "devDependencies": {
       "@atixlabs/hardhat-time-n-mine": "0.0.5",
-      "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.10",
+      "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
       "@nomiclabs/hardhat-etherscan": "^2.1.6",
       "@nomiclabs/hardhat-waffle": "^2.0.1",
       "@typechain/ethers-v5": "^7.0.1",
@@ -42,4 +42,3 @@
       "bsc": "hardhat node --tags bsc --port 8545"
     }
   }
-  
